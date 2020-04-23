@@ -1,4 +1,4 @@
-import { EntityRepository, Repository } from "typeorm";
+import { EntityRepository, Repository } from 'typeorm';
 
 import Appointment from '../models/Appointments';
 
@@ -9,7 +9,7 @@ class AppointmentsRepository extends Repository<Appointment> {
       where: { date },
     });
 
-    return findAppointment || null;
+    return findAppointment || null || null;
   }
 }
 
