@@ -41,6 +41,6 @@
     }
   },
   "lint-staged": {
-    "*.ts": ["eslint --fix", "git add"]
+    "*.ts": ["@typescript-eslint --fix", "git add"]
   }
 }
