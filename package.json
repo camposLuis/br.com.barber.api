@@ -33,7 +33,7 @@
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.24",
+    "typeorm": "^0.2.25",
     "uuidv4": "^6.0.7"
   }
 }
